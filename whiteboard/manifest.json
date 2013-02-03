@@ -1,0 +1,16 @@
+{
+  "name": "Makes blackboard better",
+  "version": "1.0",
+  "options_page": "options.html",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://bblms-fe1.server.rpi.edu/*"],
+      "css":["fun.css"],
+      "js": ["jquery.js","myscript.js"]
+    }
+  ],
+  "manifest_version": 2
+}
